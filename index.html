@@ -6,152 +6,266 @@
     <meta charset="utf-8">
     <title>H!O!M!E</title>
     <style>
-        h2 {
+        .sub-title {
             background-color: #d24545;
-            color: beige;
+            color: azure;
+            font-size: 2rem;
+            /* 1rem=16px */
+            font-family: 標楷體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border: rgb(27, 16, 9) 4px solid;
+            margin: 12px;
+            text-align: center;
         }
 
-        h1 {
+        .sub-na {
+            background-color: antiquewhite;
+            color: rgb(172, 109, 169);
+            font-size: 20px;
+            padding: 0.8rem;
+            text-align: center;
+
+        }
+
+        .sub-h1 {
             color: darkmagenta;
+            font-size: 48px;
+            background-color: #d24545;
+            border-radius: 12px;
+            margin: 12px 0 12px 0;
 
         }
 
         body {
+            background-color: #dac880;
+            color: rgb(78, 96, 112);
+            font-family: 標楷體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .sub-eng {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #info {
+            background-color: burlywood;
+            color: black;
+        }
+
+        #container {
+            padding: 1rem;
+        }
+
+        .image {
+            background-color: azure;
+            padding: 0.8rem;
+            width: 40%;
+            border-radius: 1.5rem
+        }
+
+        #img-cen {
+            text-align: center;
+        }
+
+        #tab {
+            color: black;
+            width: 80%;
+            height: 300px;
+            text-align: center;
+            margin: 0 auto;
+
+        }
+
+        thead {
+            background-color: burlywood;
+        }
+
+        tbody {
+            background-color: #ece0b0;
+        }
+
+        td:first-child {
             background-color: antiquewhite;
-            color: aliceblue;
+        }
+
+        #video {
+            text-align: center;
+
+        }
+
+        #hyo {
+            text-align: center
+        }
+
+        form {
+            background-color: #e2d38d;
+            color: black;
+            padding: 1rem 0px;
+            border-radius: 1rem;
+            margin-top: 6px;
+            margin: 0 auto;
+        }
+
+        input,
+        textarea,
+        label,
+        button {
+            margin: 12px 0px;
+            font-size: 20px;
+        }
+
+        button {
+            background-color: azure;
+            width: 100px;
+            border-radius: 6px;
         }
     </style>
 </head>
 
 <!-- bgcolor="#fffaf0" -->
 
-<body text="#191970">
-    <marquee behavior=alternate>
-        <h1>💪OVE健身網</h1>
-    </marquee>
+<body>
+    <div id="container">
+        <div class="sub-h1">
+            <marquee behavior=alternate>
+                <span class="sub-eng">💪OVE</span>
+                健身網
+            </marquee>
+        </div>
 
-    <img width="40%" src="imgg/nigel-msipa-_nUKpvm9I0w-unsplash.jpg" alt="I CANNOT FIND"><br>
-
-    <div style="color: darkmagenta;background-color: antiquewhite;">
-        何謂健身?<br>
-        <b>健身，英文稱為workout，健身這兩個字拆開來的意思就是健康身體，
-            通過各種運動方式或方法來增強力量、增加肌肉量、柔韌性、耐力，
-            以及提高協調和控制身體各部分的能力來使我們的身體更強健。</b><br>
-        <p>除了塑造好身材，透過健身可以刺激我們身體的肌肉，再搭配飲食的控制，
-            這能大大幫助我們的肌肉量增加，以及讓我們的肌肉更加的結實。</p>
-        <em>如果你對健身仍然保持著懷疑的態度，那你大可以去看看你喜歡的健身老戲骨幹，
-            他們是如何做到年過50/60歲，依舊在舞臺上或者是電影螢幕上綻放光彩。<u>答案就是堅持<b>運動健身!</b></u></em>
-    </div>
-    <hr>
-
-    <a target="_blank" href="https://www.youtube.com/watch?v=uHgt8giw1LY"> <img width="80%"
-            src="https://photo.16pic.com/00/87/10/16pic_8710805_b.jpg" alt="I CANNOT FIND">
-    </a>
-
-    <h2>
-        <center>健身的10個好處</center>
-    </h2>
-    <ol>
-        <li>增加基礎代謝率</li>
-        <li>預防疾病和提高免疫力</li>
-        <li>改善心情</li>
-        <li>改善睡眠</li>
-        <li>增加自信</li>
-        <li>增強記憶力</li>
-        <li>增強心肺能力</li>
-        <li>提升睡眠品質</li>
-        <li>釋放工作的壓力</li>
-        <li>增加肌肉助於減肥</li>
-    </ol>
-    <hr>
-    <h3>
-        <center>good文連結</center>
-    </h3>
-    <ul>
-        <li>
-            <a href="https://blog.worldgymtaiwan.com/5-mental-benefits-of-exercise" target="_blank">更年期?</a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/watch?v=uHgt8giw1LY" target="_blank">part2co</a>
-        </li>
-    </ul>
-    <small>
-        引用網址:<a href="https://fitnesstwenty.com/benefits-of-workout/">這</a>
-    </small>
-    <hr>
-    <h2>
-        <center>一天所需卡洛里</center>
-    </h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>每天活動量</th>
-                <th>體重過輕者所需熱量</th>
-                <th>體重正常者所需熱量</th>
-                <th>體重過重、肥胖者所需熱量</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>輕度工作</td>
-                <td>35大卡 X 目前體重（公斤）</td>
-                <td>30大卡 X 目前體重（公斤）</td>
-                <td>20~25大卡 X 目前體重（公斤）</td>
-            </tr>
-            <tr>
-                <td>中度工作</td>
-                <td>40大卡 X 目前體重（公斤）（公斤）</td>
-                <td>35大卡 X 目前體重（公斤）</td>
-                <td>30大卡 X 目前體重（公斤）（公斤）</td>
-            </tr>
-            <tr>
-                <td>重度工作</td>
-                <td>45大卡 X 目前體重（公斤）（公斤）</td>
-                <td>40大卡 X 目前體重（公斤）</td>
-                <td>35大卡 X 目前體重（公斤）</td>
-            </tr>
-
-        </tbody>
-
-    </table>
-    <p><b>
-            <a href="bmi.html">計算BMI:</a>&nbsp;&nbsp;</b>
-        一位民眾身高160公分，體重65公斤，BMI25.4kg/m2(=65÷1.6÷1.6)，體重屬於「過重」。<br>
-
-        <br><b>計算所需熱量:&nbsp;&nbsp;</b>
-        因他的工作為坐辦公室，屬輕量工作，每天攝取熱量應在1300至1625大卡之間(=20~25大卡*65公斤)。
-    </p>
-    <img width="50%" src="imgg/20220210152512-172c8f51.jpg" alt="I CANNOT FIND">
-</body>
-<hr>
-<h2>健身影片</h2>
-<iframe width="800" height="480" src="https://www.youtube.com/embed/L0-uSPH313M" title="【GKBB】第三屆成吉思汗盃全國健美公開賽 highlight"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
-<p>
-    <video src="video/file_example_MP4_640_3MG.mp4" controls width="50%"></video>
-</p>
-<p>
-    <video src="video/Rick Astley - Never Gonna Give You Up (no ads).mp4" controls width="50%"></video>
-</p>
-<hr>
-<h2>表單填寫</h2>
-<form action="" method="get">
-    <h3>需要更多資訊?免費索取健身資訊</h3>
-    前100名還<b>贈送</b><u>［我愛健身］書籍一本!</u><br>
-    <p>
-        <label for="useremail">email: </label>
-        <input type="email" id="useremail" name="useremail" placeholder="輸入您的email" required><br>
-    </p>
-    <p>
-        <label for="info">您寶貴的意見:</label><br>
-        <textarea name="info" id="info" cols="30" rows="10"></textarea>
+        <div id="img-cen"><img class="image" width="40%" src="imgg/nigel-msipa-_nUKpvm9I0w-unsplash.jpg"
+                alt="I CANNOT FIND"></div>
         <br>
-        <button type="submit">送出</button>
-    </p>
+
+        <div class="sub-na">
+            何謂健身?<br>
+            <b>健身，英文稱為workout，健身這兩個字拆開來的意思就是健康身體，
+                通過各種運動方式或方法來增強力量、增加肌肉量、柔韌性、耐力，
+                以及提高協調和控制身體各部分的能力來使我們的身體更強健。</b><br>
+            <p>除了塑造好身材，透過健身可以刺激我們身體的肌肉，再搭配飲食的控制，
+                這能大大幫助我們的肌肉量增加，以及讓我們的肌肉更加的結實。</p>
+            <em>如果你對健身仍然保持著懷疑的態度，那你大可以去看看你喜歡的健身老戲骨幹，
+                他們是如何做到年過50/60歲，依舊在舞臺上或者是電影螢幕上綻放光彩。<u>答案就是堅持<b>運動健身!</b></u></em>
+        </div>
+        <hr>
+
+        <a target="_blank" href="https://www.youtube.com/watch?v=uHgt8giw1LY"> <img width="80%"
+                src="https://photo.16pic.com/00/87/10/16pic_8710805_b.jpg" alt="I CANNOT FIND">
+        </a>
+
+        <div class="sub-title">
+            健身的10個好處
+        </div>
+
+        <ol class="sub-na">
+            <li>增加基礎代謝率</li>
+            <li>預防疾病和提高免疫力</li>
+            <li>改善心情</li>
+            <li>改善睡眠</li>
+            <li>增加自信</li>
+            <li>增強記憶力</li>
+            <li>增強心肺能力</li>
+            <li>提升睡眠品質</li>
+            <li>釋放工作的壓力</li>
+            <li>增加肌肉助於減肥</li>
+        </ol>
+        <hr>
+        <div class="sub-title">
+            good文連結
+        </div>
+        <ul class="sub-na">
+            <li>
+                <a href="https://blog.worldgymtaiwan.com/5-mental-benefits-of-exercise" target="_blank">更年期?</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=uHgt8giw1LY" target="_blank">part2co</a>
+            </li>
+        </ul>
+        <small>
+            引用網址:<a href="https://fitnesstwenty.com/benefits-of-workout/">這</a>
+        </small>
+        <hr>
+        <div class="sub-title">
+            一天所需卡洛里
+        </div>
+        <table border="1" id="tab">
+            <thead>
+                <tr>
+                    <th>每天活動量</th>
+                    <th>體重過輕者所需熱量</th>
+                    <th>體重正常者所需熱量</th>
+                    <th>體重過重、肥胖者所需熱量</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>輕度工作</td>
+                    <td>35大卡 X 目前體重（公斤）</td>
+                    <td>30大卡 X 目前體重（公斤）</td>
+                    <td>20~25大卡 X 目前體重（公斤）</td>
+                </tr>
+                <tr>
+                    <td>中度工作</td>
+                    <td>40大卡 X 目前體重（公斤）（公斤）</td>
+                    <td>35大卡 X 目前體重（公斤）</td>
+                    <td>30大卡 X 目前體重（公斤）（公斤）</td>
+                </tr>
+                <tr>
+                    <td>重度工作</td>
+                    <td>45大卡 X 目前體重（公斤）（公斤）</td>
+                    <td>40大卡 X 目前體重（公斤）</td>
+                    <td>35大卡 X 目前體重（公斤）</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+        <p><b>
+                <a href="bmi.html">計算BMI:</a>&nbsp;&nbsp;</b>
+            一位民眾身高160公分，體重65公斤，BMI25.4kg/m2(=65÷1.6÷1.6)，體重屬於「過重」。<br>
+
+            <br><b>計算所需熱量:&nbsp;&nbsp;</b>
+            因他的工作為坐辦公室，屬輕量工作，每天攝取熱量應在1300至1625大卡之間(=20~25大卡*65公斤)。
+        </p>
+
+        <div id="img-cen"><img class="image" width="50%" src="imgg/20220210152512-172c8f51.jpg" alt="I CANNOT FIND">
+        </div>
+
+        <hr>
+        <div class="sub-title">健身影片</div>
+
+        <div id="video">
+            <iframe width="800" height="480" src="https://www.youtube.com/embed/L0-uSPH313M"
+                title="【GKBB】第三屆成吉思汗盃全國健美公開賽 highlight" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <video src="video/file_example_MP4_640_3MG.mp4" controls width="50%"></video>
 
 
-</form>
+            <video src="video/Rick Astley - Never Gonna Give You Up (no ads).mp4" controls width="50%"></video>
+
+        </div>
+        <hr>
+        <div class="sub-title">表單填寫</div>
+        <div id="hyo">
+            <form action="" method="get">
+                <h3>需要更多資訊?免費索取健身資訊</h3>
+                前100名還<b>贈送</b><u>［我愛健身］書籍一本!</u><br>
+                <p>
+                    <label for="useremail">email: </label>
+                    <input type="email" id="useremail" name="useremail" placeholder="輸入您的email" required><br>
+                </p>
+                <p>
+                    <label for="info">您寶貴的意見:</label><br>
+                    <textarea name="info" id="info" cols="30" rows="10"></textarea>
+                    <br>
+                    <button type="submit">送出</button>
+                    <button type="reset" style="background-color: #d24545;color: aliceblue;">清除</button>
+                </p>
+            </form>
+        </div>
+
+
+    </div>
+</body>
 
 </html>
