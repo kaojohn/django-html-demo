@@ -1,0 +1,82 @@
+body {
+    background-color: #dac880;
+    color: rgb(78, 96, 112);
+    font-family: 標楷體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url("../imgg/photo-1487147264018-f937fba0c817.avif");
+}
+
+form {
+    text-align: center;
+    background-color: #e2d38d;
+    background-image: url("../imgg/photo-1621750627159-cf77b0b91aac.avif");
+    background-size: cover;
+    color: rgb(216, 214, 57);
+    padding: 1rem 0px;
+    border-radius: 1rem;
+    margin-top: 6px;
+    margin: 0 auto;
+}
+
+.sub-h1 {
+    color: darkmagenta;
+    font-size: 48px;
+    background-color: #d24545;
+    border-radius: 12px;
+    margin: 12px 0 12px 0;
+
+}
+
+thead {
+    background-color: burlywood;
+}
+
+tbody {
+    background-color: #ece0b0;
+}
+
+td:first-child {
+    background-color: antiquewhite;
+}
+
+input,
+textarea,
+label,
+button {
+    text-align: center;
+    margin: 12px 0px;
+    font-size: 20px;
+}
+
+button {
+    background-color: azure;
+    width: 100px;
+    border-radius: 6px;
+}
+
+#tab {
+    color: black;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width:768px) {
+    table {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    form {
+        width: 80%;
+        font-size: 12px;
+    }
+}
