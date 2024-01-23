@@ -69,6 +69,12 @@ button {
 
 }
 
+.comment {
+    color: #d24545;
+    font-size: 38px;
+
+}
+
 @media screen and (max-width:768px) {
     table {
         width: 100%;
