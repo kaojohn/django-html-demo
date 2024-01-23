@@ -6,6 +6,12 @@ const weightE1 = document.querySelector("#userwe");
 function goBmi() {
     let height = heightE1.value;
     let weight = weightE1.value;
+
+    if (height == "" || weight == "") {
+        alert("輸入不能為空!!");
+        return
+    }
+
     let bmi = getBmi(height, weight);
     console.log(bmi);
 

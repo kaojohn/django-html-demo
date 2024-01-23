@@ -62,6 +62,13 @@ button {
 
 }
 
+.seebmi {
+    /* background-color: aquamarine; */
+    color: #d24545;
+    font-size: 48px;
+
+}
+
 @media screen and (max-width:768px) {
     table {
         width: 100%;
@@ -79,4 +86,6 @@ button {
         width: 80%;
         font-size: 12px;
     }
+
+
 }
