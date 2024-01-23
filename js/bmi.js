@@ -4,6 +4,12 @@ const weightE1 = document.querySelector("#userwe");
 const bmiE1 = document.querySelector(".seebmi");
 const commentE1 = document.querySelector(".comment");
 
+function clear() {
+    heightE1.value = "";
+    weightE1.value = "";
+    bmiE1.innerText = "";
+    commentE1.innerText = "";
+}
 
 function goBmi() {
     let height = heightE1.value;

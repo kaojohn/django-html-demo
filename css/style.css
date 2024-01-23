@@ -63,7 +63,6 @@ button {
 }
 
 .seebmi {
-    /* background-color: aquamarine; */
     color: #d24545;
     font-size: 48px;
 
@@ -72,6 +71,13 @@ button {
 .comment {
     color: #d24545;
     font-size: 38px;
+
+}
+
+.seecomment {
+    background-color: darkslategray;
+    margin: 10px auto;
+    border-radius: 6rem;
 
 }
 

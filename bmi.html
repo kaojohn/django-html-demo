@@ -33,15 +33,18 @@
             <label for="userewe">體重: </label>
             <input type="number" id="userwe" step="0.1" name="userwe" placeholder="輸入您的體重" required><br>
 
-            <label for="userbmi">你的bmi為: </label>
-        <div class="seebmi">0
-        </div><br>
 
-        <div class="comment">...</div>
+            <label for="userbmi">你的bmi為: </label>
+        <div class="seecomment">
+            <div class="seebmi">0</div>
+
+            <div class="comment">...</div>
+        </div>
+
 
         </p>
         <button type="button" onclick="goBmi()">送出</button>
-        <button type="reset" style="background-color: #d24545;color: aliceblue;">清除重算</button>
+        <button type="reset" onclick="clear()" style="background-color: #d24545;color: aliceblue;">清除重算</button>
         <hr>
         <table border="1" id="tab">
             <thead>
